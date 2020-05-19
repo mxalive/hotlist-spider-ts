@@ -1,0 +1,25 @@
+{
+  "name": "githubapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsc && node out/app.js",
+    "nodemon": "nodemon src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/koa": "^2.11.3",
+    "@types/koa-router": "^7.4.0",
+    "@types/request": "^2.48.4",
+    "cheerio": "^1.0.0-rc.3",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
+  }
+}
